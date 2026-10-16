@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: My coffee theme 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/my-coffee-theme\n"
-"POT-Creation-Date: 2026-10-16T04:14:43+00:00\n"
+"POT-Creation-Date: 2026-10-16T10:09:47+00:00\n"
 "PO-Revision-Date: 2026-10-16 12:00+0000\n"
 "Last-Translator: Zeraiel\n"
 "Language-Team: Russian\n"
@@ -18,8 +18,8 @@ msgstr ""
 
 #. Theme Name of the theme
 #: style.css
-msgid "My coffee theme"
-msgstr "My coffee theme"
+msgid "My Coffee Theme"
+msgstr ""
 
 #. Theme URI of the theme
 #: style.css
@@ -28,8 +28,16 @@ msgstr ""
 
 #. Description of the theme
 #: style.css
-msgid "just classic coffee theme"
-msgstr "Простая классическая тема о кофе"
+msgid ""
+"A classic WordPress theme for coffee shops and roasteries. Includes a coffee"
+" menu with categories, roast levels and origins, a customizable homepage "
+"hero, widget areas, translation support and an accessible, responsive "
+"design."
+msgstr ""
+"Классическая тема WordPress для кофеен и обжарочных мастерских. Включает "
+"кофейное меню с категориями, степенями обжарки и происхождением, "
+"настраиваемый главный блок, области виджетов, поддержку перевода и доступный"
+" адаптивный дизайн."
 
 #. Author of the theme
 #: style.css
@@ -53,7 +61,7 @@ msgstr "Страница, которую вы ищете, не существу�
 msgid "Back to the homepage"
 msgstr "Вернуться на главную"
 
-#: archive-menu_item.php:40
+#: archive-menu_item.php:38
 msgid "The menu is empty for now."
 msgstr "Меню пока пусто."
 
@@ -74,7 +82,7 @@ msgstr[2] "%s комментариев"
 msgid "Comments are closed."
 msgstr "Комментирование закрыто."
 
-#: footer.php:22 functions.php:51
+#: footer.php:23 functions.php:51
 msgid "Footer menu"
 msgstr "Меню в подвале"
 
@@ -102,7 +110,7 @@ msgstr "Зёрна небольшими партиями, обжарка каж�
 msgid "Read the blog"
 msgstr "Читать блог"
 
-#: functions.php:50 header.php:37
+#: functions.php:50 header.php:38
 msgid "Primary menu"
 msgstr "Главное меню"
 
@@ -122,11 +130,11 @@ msgstr "Виджеты в подвале"
 msgid "Widgets shown at the bottom of every page."
 msgstr "Виджеты внизу каждой страницы."
 
-#: functions.php:175
+#: functions.php:209
 msgid "Please choose a valid color."
 msgstr "Выберите корректный цвет."
 
-#: functions.php:177
+#: functions.php:211
 msgid ""
 "This color is too light to read on the page background. Please choose a "
 "darker one."
@@ -134,31 +142,31 @@ msgstr ""
 "Этот цвет слишком светлый и плохо читается на фоне страницы. Выберите более "
 "тёмный."
 
-#: functions.php:192
+#: functions.php:226
 msgid "Homepage hero"
 msgstr "Главный блок на главной"
 
-#: functions.php:207
+#: functions.php:241
 msgid "Hero title"
 msgstr "Заголовок главного блока"
 
-#: functions.php:223
+#: functions.php:257
 msgid "Hero text"
 msgstr "Текст главного блока"
 
-#: functions.php:239
+#: functions.php:273
 msgid "Button text (leave empty to hide the button)"
 msgstr "Текст кнопки (оставьте пустым, чтобы скрыть кнопку)"
 
-#: functions.php:255
+#: functions.php:289
 msgid "Button link"
 msgstr "Ссылка кнопки"
 
-#: functions.php:274
+#: functions.php:308
 msgid "Accent color"
 msgstr "Акцентный цвет"
 
-#: functions.php:275
+#: functions.php:309
 msgid ""
 "Used for links and the hero block. Dark colors only, so the text stays "
 "readable."
@@ -166,11 +174,11 @@ msgstr ""
 "Используется для ссылок и главного блока. Только тёмные цвета, чтобы текст "
 "оставался читаемым."
 
-#: functions.php:292 inc/post-types.php:30
+#: functions.php:326 inc/post-types.php:30
 msgid "Coffee menu"
 msgstr "Кофейное меню"
 
-#: functions.php:307
+#: functions.php:341
 msgid "Currency symbol"
 msgstr "Символ валюты"
 
@@ -178,7 +186,7 @@ msgstr "Символ валюты"
 msgid "Skip to content"
 msgstr "Перейти к содержимому"
 
-#: header.php:38
+#: header.php:39
 msgid "Menu"
 msgstr "Меню"
 
@@ -325,15 +333,15 @@ msgid "Sorry, nothing matched your search. Try different keywords."
 msgstr ""
 "К сожалению, по вашему запросу ничего не найдено. Попробуйте другие слова."
 
-#: single-menu_item.php:34
+#: single-menu_item.php:41
 msgid "Previous item:"
 msgstr "Предыдущая позиция:"
 
-#: single-menu_item.php:35
+#: single-menu_item.php:42
 msgid "Next item:"
 msgstr "Следующая позиция:"
 
-#: single-menu_item.php:40
+#: single-menu_item.php:47
 msgid "Menu item not found."
 msgstr "Позиция меню не найдена."
 
@@ -348,3 +356,18 @@ msgstr "Следующая запись:"
 #: taxonomy.php:30
 msgid "Nothing here yet."
 msgstr "Здесь пока ничего нет."
+
+#: template-parts/content-excerpt.php:22
+#: template-parts/content-menu-item.php:17
+msgid "(no title)"
+msgstr "(без заголовка)"
+
+#: template-parts/content.php:33
+msgid "Tags: "
+msgstr "Метки: "
+
+#~ msgid "My coffee theme"
+#~ msgstr "My coffee theme"
+
+#~ msgid "just classic coffee theme"
+#~ msgstr "Простая классическая тема о кофе"

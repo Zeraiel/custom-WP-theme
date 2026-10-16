@@ -18,6 +18,7 @@
 <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'my-coffee-theme' ); ?></a>
 
 <header class="site-header">
+<div class="site-header__inner">
 	<div class="site-branding">
 		<?php
 		if ( has_custom_logo() ) {
@@ -49,6 +50,7 @@
 	<?php endif; ?>
 
 	<?php get_search_form(); ?>
+</div>
 </header>
 
 <?php

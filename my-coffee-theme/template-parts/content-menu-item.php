@@ -10,9 +10,17 @@
 	<?php if ( has_post_thumbnail() ) : ?>
 		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1"><?php the_post_thumbnail( 'medium' ); ?></a>
 	<?php endif; ?>
-	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-	<?php
-	my_coffee_theme_menu_item_details();
-	the_excerpt();
-	?>
+	<div class="menu-card__body">
+		<?php
+		$my_coffee_theme_title = get_the_title();
+		if ( '' === $my_coffee_theme_title ) {
+			$my_coffee_theme_title = __( '(no title)', 'my-coffee-theme' );
+		}
+		?>
+		<h2 class="menu-card__title"><a href="<?php the_permalink(); ?>"><?php echo esc_html( $my_coffee_theme_title ); ?></a></h2>
+		<?php
+		my_coffee_theme_menu_item_details();
+		the_excerpt();
+		?>
+	</div>
 </article>

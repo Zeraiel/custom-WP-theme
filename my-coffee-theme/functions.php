@@ -127,6 +127,40 @@ function my_coffee_theme_scripts() {
 add_action( 'wp_enqueue_scripts', 'my_coffee_theme_scripts' );
 
 /**
+ * Tell the stylesheet whether the sidebar has widgets, so the layout can adapt.
+ *
+ * @param string[] $classes Body classes.
+ * @return string[]
+ */
+function my_coffee_theme_body_classes( $classes ) {
+	$classes[] = is_active_sidebar( 'sidebar-1' ) ? 'has-sidebar' : 'no-sidebar';
+
+	return $classes;
+}
+add_filter( 'body_class', 'my_coffee_theme_body_classes' );
+
+/**
+ * Replace the default "[...]" at the end of excerpts.
+ *
+ * @return string
+ */
+function my_coffee_theme_excerpt_more() {
+	return '&hellip;';
+}
+add_filter( 'excerpt_more', 'my_coffee_theme_excerpt_more' );
+
+/**
+ * Preload the heading font so text does not jump when it loads.
+ */
+function my_coffee_theme_preload_font() {
+	printf(
+		'<link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>' . "\n",
+		esc_url( get_template_directory_uri() . '/assets/fonts/playfair-display.woff2' )
+	);
+}
+add_action( 'wp_head', 'my_coffee_theme_preload_font', 1 );
+
+/**
  * Relative luminance of a hex color (WCAG formula).
  *
  * @param string $hex Color like #aabbcc.
@@ -173,7 +207,7 @@ function my_coffee_theme_validate_accent( $validity, $value ) {
 
 	if ( ! $color ) {
 		$validity->add( 'invalid_color', __( 'Please choose a valid color.', 'my-coffee-theme' ) );
-	} elseif ( my_coffee_theme_contrast_ratio( $color, '#f1bc9c' ) < 4.5 ) {
+	} elseif ( my_coffee_theme_contrast_ratio( $color, '#fbf3ea' ) < 4.5 ) {
 		$validity->add( 'low_contrast', __( 'This color is too light to read on the page background. Please choose a darker one.', 'my-coffee-theme' ) );
 	}
 

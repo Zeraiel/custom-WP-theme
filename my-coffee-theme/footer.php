@@ -12,6 +12,7 @@
 </div><!-- .site-content -->
 
 <footer class="site-footer">
+<div class="site-footer__inner">
 	<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
 		<div class="footer-widgets">
 			<?php dynamic_sidebar( 'footer-1' ); ?>
@@ -33,6 +34,7 @@
 	<?php endif; ?>
 
 	<p class="site-info">&copy; <?php echo esc_html( wp_date( 'Y' ) ); ?> <?php echo esc_html( get_bloginfo( 'name' ) ); ?></p>
+</div>
 </footer>
 
 <?php wp_footer(); ?>

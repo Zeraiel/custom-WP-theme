@@ -64,3 +64,17 @@ function my_coffee_theme_menu_item_terms( $post_id = 0 ) {
 		echo '<p class="menu-item-terms"><strong>' . esc_html( $taxonomy_object->labels->singular_name ) . ':</strong> ' . wp_kses_post( $list ) . '</p>';
 	}
 }
+
+/**
+ * Print the publication date and categories of a post.
+ */
+function my_coffee_theme_entry_meta() {
+	?>
+	<p class="entry-meta">
+		<time datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>"><?php echo esc_html( get_the_date() ); ?></time>
+		<?php if ( has_category() ) : ?>
+			<span class="entry-meta__categories"><?php the_category( ', ' ); ?></span>
+		<?php endif; ?>
+	</p>
+	<?php
+}

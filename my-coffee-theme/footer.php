@@ -1,3 +1,11 @@
+<?php
+/**
+ * The footer: closes the content area, sidebar, footer widgets and menu.
+ *
+ * @package my-coffee-theme
+ */
+
+?>
 </main>
 
 <?php get_sidebar(); ?>
@@ -10,10 +18,8 @@
 		</div>
 	<?php endif; ?>
 
-	<?php
-	if ( has_nav_menu( 'footer' ) ) :
-		?>
-		<nav class="footer-navigation" aria-label="Footer menu">
+	<?php if ( has_nav_menu( 'footer' ) ) : ?>
+		<nav class="footer-navigation" aria-label="<?php esc_attr_e( 'Footer menu', 'my-coffee-theme' ); ?>">
 			<?php
 			wp_nav_menu(
 				array(
@@ -26,7 +32,7 @@
 		</nav>
 	<?php endif; ?>
 
-	<p class="site-info">&copy; <?php echo esc_html( wp_date( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?></p>
+	<p class="site-info">&copy; <?php echo esc_html( wp_date( 'Y' ) ); ?> <?php echo esc_html( get_bloginfo( 'name' ) ); ?></p>
 </footer>
 
 <?php wp_footer(); ?>

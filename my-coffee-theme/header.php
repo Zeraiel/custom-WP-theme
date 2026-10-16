@@ -1,3 +1,11 @@
+<?php
+/**
+ * The header: document head, site branding, navigation and search.
+ *
+ * @package my-coffee-theme
+ */
+
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -7,6 +15,8 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'my-coffee-theme' ); ?></a>
+
 <header class="site-header">
 	<div class="site-branding">
 		<?php
@@ -16,16 +26,16 @@
 
 		if ( is_front_page() || is_home() ) :
 			?>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a></h1>
 		<?php else : ?>
-			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></p>
+			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a></p>
 		<?php endif; ?>
-		<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+		<p class="site-description"><?php echo esc_html( get_bloginfo( 'description' ) ); ?></p>
 	</div>
 
 	<?php if ( has_nav_menu( 'primary' ) ) : ?>
-		<nav id="site-navigation" class="main-navigation" aria-label="Primary menu">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+		<nav id="site-navigation" class="main-navigation" aria-label="<?php esc_attr_e( 'Primary menu', 'my-coffee-theme' ); ?>">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'my-coffee-theme' ); ?></button>
 			<?php
 			wp_nav_menu(
 				array(

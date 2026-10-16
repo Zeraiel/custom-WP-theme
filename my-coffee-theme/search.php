@@ -1,10 +1,21 @@
 <?php
+/**
+ * The template for displaying search results.
+ *
+ * @package my-coffee-theme
+ */
+
 get_header();
 
 if ( have_posts() ) :
 	?>
 	<header class="search-header">
-		<h1>Search results for: <span><?php echo esc_html( get_search_query() ); ?></span></h1>
+		<h1>
+			<?php
+			/* translators: %s: search query. */
+			printf( esc_html__( 'Search results for: %s', 'my-coffee-theme' ), '<span>' . esc_html( get_search_query() ) . '</span>' );
+			?>
+		</h1>
 	</header>
 	<?php
 	while ( have_posts() ) :
@@ -16,9 +27,14 @@ if ( have_posts() ) :
 else :
 	?>
 	<header class="search-header">
-		<h1>Nothing found for: <span><?php echo esc_html( get_search_query() ); ?></span></h1>
+		<h1>
+			<?php
+			/* translators: %s: search query. */
+			printf( esc_html__( 'Nothing found for: %s', 'my-coffee-theme' ), '<span>' . esc_html( get_search_query() ) . '</span>' );
+			?>
+		</h1>
 	</header>
-	<p>Sorry, nothing matched your search. Try different keywords.</p>
+	<p><?php esc_html_e( 'Sorry, nothing matched your search. Try different keywords.', 'my-coffee-theme' ); ?></p>
 	<?php
 endif;
 

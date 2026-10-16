@@ -1,4 +1,10 @@
 <?php
+/**
+ * The main template file, used when no more specific template matches.
+ *
+ * @package my-coffee-theme
+ */
+
 get_header();
 
 if ( have_posts() ) :
@@ -9,7 +15,9 @@ if ( have_posts() ) :
 
 	the_posts_pagination();
 else :
-	echo '<p>No posts found. :(</p>';
+	?>
+	<p><?php esc_html_e( 'No posts found.', 'my-coffee-theme' ); ?></p>
+	<?php
 endif;
 
 get_footer();

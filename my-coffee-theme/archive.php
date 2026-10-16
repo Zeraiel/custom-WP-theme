@@ -1,4 +1,10 @@
 <?php
+/**
+ * The template for displaying archive pages (categories, tags, dates, authors).
+ *
+ * @package my-coffee-theme
+ */
+
 get_header();
 
 if ( have_posts() ) :
@@ -17,7 +23,9 @@ if ( have_posts() ) :
 
 	the_posts_pagination();
 else :
-	echo '<p>Nothing found in this archive.</p>';
+	?>
+	<p><?php esc_html_e( 'Nothing found in this archive.', 'my-coffee-theme' ); ?></p>
+	<?php
 endif;
 
 get_footer();

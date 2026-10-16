@@ -1,0 +1,350 @@
+# Copyright (C) 2026 Zeraiel
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: My coffee theme 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/my-coffee-theme\n"
+"POT-Creation-Date: 2026-10-16T04:14:43+00:00\n"
+"PO-Revision-Date: 2026-10-16 12:00+0000\n"
+"Last-Translator: Zeraiel\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: my-coffee-theme\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "My coffee theme"
+msgstr "My coffee theme"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/Zeraiel/custom-WP-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "just classic coffee theme"
+msgstr "Простая классическая тема о кофе"
+
+#. Author of the theme
+#: style.css
+msgid "Zeraiel"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://github.com/Zeraiel"
+msgstr ""
+
+#: 404.php:11
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: 404.php:12
+msgid "The page you are looking for does not exist or has been moved."
+msgstr "Страница, которую вы ищете, не существует или была перемещена."
+
+#: 404.php:13
+msgid "Back to the homepage"
+msgstr "Вернуться на главную"
+
+#: archive-menu_item.php:40
+msgid "The menu is empty for now."
+msgstr "Меню пока пусто."
+
+#: archive.php:27
+msgid "Nothing found in this archive."
+msgstr "В этом архиве ничего не найдено."
+
+#. translators: %s: number of comments.
+#: comments.php:19
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s комментарий"
+msgstr[1] "%s комментария"
+msgstr[2] "%s комментариев"
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr "Комментирование закрыто."
+
+#: footer.php:22 functions.php:51
+msgid "Footer menu"
+msgstr "Меню в подвале"
+
+#: front-page.php:30
+msgid "Featured from our menu"
+msgstr "Избранное из нашего меню"
+
+#: front-page.php:39
+msgid "See the full menu"
+msgstr "Посмотреть всё меню"
+
+#: front-page.php:48
+msgid "Latest posts"
+msgstr "Последние записи"
+
+#: functions.php:16
+msgid "Freshly roasted coffee"
+msgstr "Свежеобжаренный кофе"
+
+#: functions.php:17
+msgid "Small-batch beans, roasted every week."
+msgstr "Зёрна небольшими партиями, обжарка каждую неделю."
+
+#: functions.php:18
+msgid "Read the blog"
+msgstr "Читать блог"
+
+#: functions.php:50 header.php:37
+msgid "Primary menu"
+msgstr "Главное меню"
+
+#: functions.php:81 sidebar.php:12
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:83
+msgid "Widgets shown next to the main content."
+msgstr "Виджеты рядом с основным содержимым."
+
+#: functions.php:92
+msgid "Footer widgets"
+msgstr "Виджеты в подвале"
+
+#: functions.php:94
+msgid "Widgets shown at the bottom of every page."
+msgstr "Виджеты внизу каждой страницы."
+
+#: functions.php:175
+msgid "Please choose a valid color."
+msgstr "Выберите корректный цвет."
+
+#: functions.php:177
+msgid ""
+"This color is too light to read on the page background. Please choose a "
+"darker one."
+msgstr ""
+"Этот цвет слишком светлый и плохо читается на фоне страницы. Выберите более "
+"тёмный."
+
+#: functions.php:192
+msgid "Homepage hero"
+msgstr "Главный блок на главной"
+
+#: functions.php:207
+msgid "Hero title"
+msgstr "Заголовок главного блока"
+
+#: functions.php:223
+msgid "Hero text"
+msgstr "Текст главного блока"
+
+#: functions.php:239
+msgid "Button text (leave empty to hide the button)"
+msgstr "Текст кнопки (оставьте пустым, чтобы скрыть кнопку)"
+
+#: functions.php:255
+msgid "Button link"
+msgstr "Ссылка кнопки"
+
+#: functions.php:274
+msgid "Accent color"
+msgstr "Акцентный цвет"
+
+#: functions.php:275
+msgid ""
+"Used for links and the hero block. Dark colors only, so the text stays "
+"readable."
+msgstr ""
+"Используется для ссылок и главного блока. Только тёмные цвета, чтобы текст "
+"оставался читаемым."
+
+#: functions.php:292 inc/post-types.php:30
+msgid "Coffee menu"
+msgstr "Кофейное меню"
+
+#: functions.php:307
+msgid "Currency symbol"
+msgstr "Символ валюты"
+
+#: header.php:18
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: header.php:38
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/meta-boxes.php:18
+msgid "Menu item details"
+msgstr "Данные позиции меню"
+
+#: inc/meta-boxes.php:41
+msgid "Price"
+msgstr "Цена"
+
+#: inc/meta-boxes.php:45
+msgid "Weight, grams"
+msgstr "Вес, граммы"
+
+#: inc/meta-boxes.php:45
+msgid "(for beans and packs)"
+msgstr "(для зёрен и упаковок)"
+
+#: inc/meta-boxes.php:49
+msgid "Flavor notes"
+msgstr "Вкусовые ноты"
+
+#: inc/meta-boxes.php:55
+msgid "Show on the homepage as a featured item"
+msgstr "Показывать на главной как избранную позицию"
+
+#: inc/post-types.php:20
+msgid "Menu items"
+msgstr "Позиции меню"
+
+#: inc/post-types.php:21
+msgid "Menu item"
+msgstr "Позиция меню"
+
+#: inc/post-types.php:22
+msgid "Add new menu item"
+msgstr "Добавить позицию меню"
+
+#: inc/post-types.php:23
+msgid "Edit menu item"
+msgstr "Изменить позицию меню"
+
+#: inc/post-types.php:24
+msgid "New menu item"
+msgstr "Новая позиция меню"
+
+#: inc/post-types.php:25
+msgid "View menu item"
+msgstr "Посмотреть позицию меню"
+
+#: inc/post-types.php:26
+msgid "Search menu items"
+msgstr "Искать позиции меню"
+
+#: inc/post-types.php:27
+msgid "No menu items found"
+msgstr "Позиции меню не найдены"
+
+#: inc/post-types.php:28
+msgid "No menu items found in Trash"
+msgstr "В корзине нет позиций меню"
+
+#: inc/post-types.php:29
+msgid "All menu items"
+msgstr "Все позиции меню"
+
+#: inc/post-types.php:47
+msgid "Menu categories"
+msgstr "Категории меню"
+
+#: inc/post-types.php:48
+msgid "Menu category"
+msgstr "Категория меню"
+
+#: inc/post-types.php:49
+msgid "Add new menu category"
+msgstr "Добавить категорию меню"
+
+#: inc/post-types.php:50
+msgid "Search menu categories"
+msgstr "Искать категории меню"
+
+#: inc/post-types.php:65
+msgid "Roast levels"
+msgstr "Степени обжарки"
+
+#: inc/post-types.php:66
+msgid "Roast level"
+msgstr "Степень обжарки"
+
+#: inc/post-types.php:67
+msgid "Add new roast level"
+msgstr "Добавить степень обжарки"
+
+#: inc/post-types.php:68
+msgid "Search roast levels"
+msgstr "Искать степени обжарки"
+
+#: inc/post-types.php:83
+msgid "Origins"
+msgstr "Происхождение"
+
+#: inc/post-types.php:84
+msgid "Origin"
+msgstr "Происхождение"
+
+#: inc/post-types.php:85
+msgid "Add new origin"
+msgstr "Добавить происхождение"
+
+#: inc/post-types.php:86
+msgid "Search origins"
+msgstr "Искать происхождение"
+
+#. translators: %s: weight in grams.
+#: inc/template-tags.php:38
+#, php-format
+msgid "%s g"
+msgstr "%s г"
+
+#: index.php:19
+msgid "No posts found."
+msgstr "Записей не найдено."
+
+#: page.php:21 single.php:28
+msgid "Nothing found."
+msgstr "Ничего не найдено."
+
+#. translators: %s: search query.
+#: search.php:16
+#, php-format
+msgid "Search results for: %s"
+msgstr "Результаты поиска: %s"
+
+#. translators: %s: search query.
+#: search.php:33
+#, php-format
+msgid "Nothing found for: %s"
+msgstr "По запросу ничего не найдено: %s"
+
+#: search.php:37
+msgid "Sorry, nothing matched your search. Try different keywords."
+msgstr ""
+"К сожалению, по вашему запросу ничего не найдено. Попробуйте другие слова."
+
+#: single-menu_item.php:34
+msgid "Previous item:"
+msgstr "Предыдущая позиция:"
+
+#: single-menu_item.php:35
+msgid "Next item:"
+msgstr "Следующая позиция:"
+
+#: single-menu_item.php:40
+msgid "Menu item not found."
+msgstr "Позиция меню не найдена."
+
+#: single.php:17
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: single.php:18
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: taxonomy.php:30
+msgid "Nothing here yet."
+msgstr "Здесь пока ничего нет."

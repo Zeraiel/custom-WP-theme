@@ -1,0 +1,343 @@
+# Copyright (C) 2026 Zeraiel
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: My coffee theme 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/my-coffee-theme\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-16T04:14:43+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: my-coffee-theme\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "My coffee theme"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/Zeraiel/custom-WP-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "just classic coffee theme"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Zeraiel"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://github.com/Zeraiel"
+msgstr ""
+
+#: 404.php:11
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:12
+msgid "The page you are looking for does not exist or has been moved."
+msgstr ""
+
+#: 404.php:13
+msgid "Back to the homepage"
+msgstr ""
+
+#: archive-menu_item.php:40
+msgid "The menu is empty for now."
+msgstr ""
+
+#: archive.php:27
+msgid "Nothing found in this archive."
+msgstr ""
+
+#. translators: %s: number of comments.
+#: comments.php:19
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:22
+#: functions.php:51
+msgid "Footer menu"
+msgstr ""
+
+#: front-page.php:30
+msgid "Featured from our menu"
+msgstr ""
+
+#: front-page.php:39
+msgid "See the full menu"
+msgstr ""
+
+#: front-page.php:48
+msgid "Latest posts"
+msgstr ""
+
+#: functions.php:16
+msgid "Freshly roasted coffee"
+msgstr ""
+
+#: functions.php:17
+msgid "Small-batch beans, roasted every week."
+msgstr ""
+
+#: functions.php:18
+msgid "Read the blog"
+msgstr ""
+
+#: functions.php:50
+#: header.php:37
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:81
+#: sidebar.php:12
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:83
+msgid "Widgets shown next to the main content."
+msgstr ""
+
+#: functions.php:92
+msgid "Footer widgets"
+msgstr ""
+
+#: functions.php:94
+msgid "Widgets shown at the bottom of every page."
+msgstr ""
+
+#: functions.php:175
+msgid "Please choose a valid color."
+msgstr ""
+
+#: functions.php:177
+msgid "This color is too light to read on the page background. Please choose a darker one."
+msgstr ""
+
+#: functions.php:192
+msgid "Homepage hero"
+msgstr ""
+
+#: functions.php:207
+msgid "Hero title"
+msgstr ""
+
+#: functions.php:223
+msgid "Hero text"
+msgstr ""
+
+#: functions.php:239
+msgid "Button text (leave empty to hide the button)"
+msgstr ""
+
+#: functions.php:255
+msgid "Button link"
+msgstr ""
+
+#: functions.php:274
+msgid "Accent color"
+msgstr ""
+
+#: functions.php:275
+msgid "Used for links and the hero block. Dark colors only, so the text stays readable."
+msgstr ""
+
+#: functions.php:292
+#: inc/post-types.php:30
+msgid "Coffee menu"
+msgstr ""
+
+#: functions.php:307
+msgid "Currency symbol"
+msgstr ""
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:38
+msgid "Menu"
+msgstr ""
+
+#: inc/meta-boxes.php:18
+msgid "Menu item details"
+msgstr ""
+
+#: inc/meta-boxes.php:41
+msgid "Price"
+msgstr ""
+
+#: inc/meta-boxes.php:45
+msgid "Weight, grams"
+msgstr ""
+
+#: inc/meta-boxes.php:45
+msgid "(for beans and packs)"
+msgstr ""
+
+#: inc/meta-boxes.php:49
+msgid "Flavor notes"
+msgstr ""
+
+#: inc/meta-boxes.php:55
+msgid "Show on the homepage as a featured item"
+msgstr ""
+
+#: inc/post-types.php:20
+msgid "Menu items"
+msgstr ""
+
+#: inc/post-types.php:21
+msgid "Menu item"
+msgstr ""
+
+#: inc/post-types.php:22
+msgid "Add new menu item"
+msgstr ""
+
+#: inc/post-types.php:23
+msgid "Edit menu item"
+msgstr ""
+
+#: inc/post-types.php:24
+msgid "New menu item"
+msgstr ""
+
+#: inc/post-types.php:25
+msgid "View menu item"
+msgstr ""
+
+#: inc/post-types.php:26
+msgid "Search menu items"
+msgstr ""
+
+#: inc/post-types.php:27
+msgid "No menu items found"
+msgstr ""
+
+#: inc/post-types.php:28
+msgid "No menu items found in Trash"
+msgstr ""
+
+#: inc/post-types.php:29
+msgid "All menu items"
+msgstr ""
+
+#: inc/post-types.php:47
+msgid "Menu categories"
+msgstr ""
+
+#: inc/post-types.php:48
+msgid "Menu category"
+msgstr ""
+
+#: inc/post-types.php:49
+msgid "Add new menu category"
+msgstr ""
+
+#: inc/post-types.php:50
+msgid "Search menu categories"
+msgstr ""
+
+#: inc/post-types.php:65
+msgid "Roast levels"
+msgstr ""
+
+#: inc/post-types.php:66
+msgid "Roast level"
+msgstr ""
+
+#: inc/post-types.php:67
+msgid "Add new roast level"
+msgstr ""
+
+#: inc/post-types.php:68
+msgid "Search roast levels"
+msgstr ""
+
+#: inc/post-types.php:83
+msgid "Origins"
+msgstr ""
+
+#: inc/post-types.php:84
+msgid "Origin"
+msgstr ""
+
+#: inc/post-types.php:85
+msgid "Add new origin"
+msgstr ""
+
+#: inc/post-types.php:86
+msgid "Search origins"
+msgstr ""
+
+#. translators: %s: weight in grams.
+#: inc/template-tags.php:38
+#, php-format
+msgid "%s g"
+msgstr ""
+
+#: index.php:19
+msgid "No posts found."
+msgstr ""
+
+#: page.php:21
+#: single.php:28
+msgid "Nothing found."
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:16
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:33
+#, php-format
+msgid "Nothing found for: %s"
+msgstr ""
+
+#: search.php:37
+msgid "Sorry, nothing matched your search. Try different keywords."
+msgstr ""
+
+#: single-menu_item.php:34
+msgid "Previous item:"
+msgstr ""
+
+#: single-menu_item.php:35
+msgid "Next item:"
+msgstr ""
+
+#: single-menu_item.php:40
+msgid "Menu item not found."
+msgstr ""
+
+#: single.php:17
+msgid "Previous post:"
+msgstr ""
+
+#: single.php:18
+msgid "Next post:"
+msgstr ""
+
+#: taxonomy.php:30
+msgid "Nothing here yet."
+msgstr ""
